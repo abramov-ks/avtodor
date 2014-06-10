@@ -136,7 +136,7 @@ body {
 
 header, footer, section, menu {
     min-width: 1300px;
-    max-height: 1400px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -253,6 +253,7 @@ footer {
 menu {
     padding: 0 100px 0 80px;
     height: 60px;
+    min-width: 1400px;
 }
 .menu-fake {
     z-index: -1;
