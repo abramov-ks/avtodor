@@ -92,3 +92,12 @@ article ul li:before {
     color: #f68621;
     font-weight: 700;
 }
+
+
+.aside-inner-menu__link {
+    color: #282828;
+    text-decoration: none;
+}
+.aside-inner-menu__item.active .aside-inner-menu__link {
+    color: #b0b0b0;
+}
