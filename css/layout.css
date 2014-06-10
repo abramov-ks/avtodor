@@ -375,3 +375,17 @@ section > article {
     background: #fdf5e0;
 }
 /* system notification (inside main content article */
+
+
+/* additional menu in sidebar */
+.additional-menu {
+    list-style: none;
+    padding: 35px 0;
+}
+.additional-menu__item {
+    padding: 4px 0;
+}
+.additional-menu__link {
+    color: #909090;
+}
+/* additional menu in sidebar */
