@@ -50,3 +50,27 @@ aside p {
     margin: 0;
     padding: 0;
 }
+
+
+
+.aside-event__date-month {
+    color: #fff;
+    font-size: .625em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    text-align: center;
+}
+.aside-event__date-days {
+    color: #000;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.1em;
+    text-align: center;
+}
+.aside-event__desc {
+    font-size: .875em;
+}
+.aside-events__link {
+    font-style: italic;
+}
