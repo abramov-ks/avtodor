@@ -1,0 +1,52 @@
+body {
+    color: #282828;
+    font: 200 100%/1.375 "Helvetica Neue";
+}
+
+.pagetitle__txt {
+    font-size: 3.125em;
+    line-height: 1.12;
+    text-transform: uppercase;
+}
+.menu-item__txt {
+    font-size: .875em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+a {
+    color: #f36d21;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    color: #282828;
+    text-decoration: underline;
+}
+
+article h1 {
+    margin: 0 0 1em;
+    padding: 0 1em 0 0;
+    font-size: 1.875em;
+    line-height: 1.167;
+    font-weight: 200;
+}
+article h2 {
+    margin: 2em 0 1em;
+    font-size: 1.25em;
+    line-height: 1.375;
+    font-weight: 400;
+}
+article p,
+aside p {
+    margin: 1em 0 1em;
+}
+
+
+
+.system-notification p {
+    margin: 0;
+    padding: 0;
+}

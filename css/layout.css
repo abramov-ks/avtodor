@@ -1,0 +1,377 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+textarea,
+input,
+mark {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 1em;
+}
+html {
+    min-width: 1300px;
+    height: 100%;
+    background: #fff;
+}
+body {
+    height: 100%%;
+}
+
+
+
+/* helpers */
+.b-link {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    background: url(data:image/gif;base64,R0lGODlhBQAFAIAAAP///wAAACH5BAEAAAAALAAAAAAFAAUAAAIEhI+pWAA7);
+}
+.blocker {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(data:image/gif;base64,R0lGODlhBQAFAIAAAP///wAAACH5BAEAAAAALAAAAAAFAAUAAAIEhI+pWAA7);
+}
+.middle {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+/* helpers */
+
+
+header, footer, section, menu {
+    min-width: 1300px;
+    margin: auto;
+}
+
+section {
+    width: 1300px;
+    padding: 0 100px;
+}
+
+
+/* header elements */
+header {
+    position: relative;
+    padding: 25px 100px;
+    width: 1300px;
+    height: 97px;
+    background: #fff;
+    text-align: right;
+}
+.header__logo {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+.logo {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 47px;
+    background: url(../img/logo.png) 0 0 no-repeat;
+}
+.user-navi {
+    display: inline-block;
+    vertical-align: middle;
+}
+.user-navi__item {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+}
+.user-navi__item:after {
+    display: inline-block;
+    padding: 0 10px;
+    content: ' / ';
+    color: #c8c8c8;
+}
+.user-navi__item:last-child:after,
+.user-navi__item:first-child + .user-navi__item:after {
+    position: absolute;
+    content: " → ";
+    font-family: Arial, Helvetica;
+}
+/* header elements */
+
+
+/* footer elements */
+footer {
+    padding: 20px 0 55px;
+    background: #353331;
+    color: #909090;
+}
+/* footer elements */
+
+
+/* page title elements */
+.pagetitle-fake {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 140px;
+    background: url(../img/pagetitle-fake.png) 50% 0 no-repeat;
+}
+.pagetitle--main .pagetitle-fake {
+    height: 320px;
+    background: url(../img/pagetitle-fake-main.png) 50% 0 no-repeat;
+}
+.pagetitle {
+    height: 140px;
+    padding: 0;
+    background: url(../img/pagetitle.jpg) 440px 0 no-repeat;
+}
+.pagetitle--main {
+    height: 320px;
+    background: url(../img/pagetitle-main.jpg) 0 0 no-repeat;
+}
+.pagetitle_ {
+    display: block;
+    height: 100%;
+    /* background: url(../img/pagetitle-grad-right.png) 100% 0 no-repeat; */ /* no need `cause of screen overlay */
+}
+.pagetitle__ {
+    display: inline-block;
+    padding: 0 0 0 100px;
+    height: 100%;
+    min-width: 640px;
+    background: url(../img/pagetitle-grad-left.png) 100% 0 no-repeat;
+}
+.pagetitle--main .pagetitle__ {
+    min-width: 258px;
+}
+.pagetitle__txt {
+    display: inline-block;
+    min-width: 550px;
+    max-width: 750px;
+    padding-right: 200px;
+    vertical-align: middle;
+    color: #fff;
+}
+/* page title elements */
+
+
+/* main menu elements */
+menu {
+    padding: 0 100px 0 80px;
+    width: 1300px;
+    height: 60px;
+}
+.menu-fake {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 60px;
+    background: #282828;
+}
+.menu-item {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    margin-right: 23px;
+    height: 60px;
+    color: #fff;
+    background: #282828;
+}
+.menu-item__txt {
+    display: inline-block;
+}
+.menu-item:before,
+.menu-item:after {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 23px;
+    height: 60px;
+    background: url(../img/menu-sep.png) 0 0 no-repeat;
+}
+.menu-item:after {
+    left: 100%;
+    right: auto;
+}
+.menu-item--active,
+.menu-item--active:hover {
+    color: #fcae20;
+    background: #5b5655;
+    cursor: normal;
+}
+.menu-item--active:before,
+.menu-item--active:after {
+    z-index: 2;
+}
+.menu-item--active:before {
+    background-position: -23px 0;
+}
+.menu-item--active:after {
+    background-position: -46px 0;
+}
+
+.menu-langs {
+    float: right;
+}
+.menu-langs .menu-item:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+.menu-langs .menu-item:last-child:after {
+    display: none;
+}
+/* main menu elements */
+
+
+/* main content elements */
+section aside {
+    float: right;
+    margin-right: -100px;
+    padding: 0 50px 20px;
+    width: 351px;
+    border-left: 1px solid #eaeaea;
+}
+section aside + article {
+    margin-right: 250px;
+    padding-right: 49px;
+    border-right: 1px solid #eaeaea;
+}
+section > article {
+    padding: 40px 0;
+}
+
+.main {
+    position: relative;
+    width: 100%; /* todo: what should i do? design is not flexible at all */
+}
+.main aside,
+.main article:last-child {
+    padding-bottom: 70px;
+}
+.main:after {
+    display: block;
+    clear: both;
+    height: 0;
+    content: '';
+}
+/* main content elements */
+
+/* tools and search */
+.tools {
+    height: 85px;
+    background: #f36d21;
+}
+.tools-fake {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 85px;
+    background: #f36d21;
+}
+/* tools and search */
+
+/* system notification (inside main content article */
+.system-notification {
+    position: relative;
+    margin: -40px -50px 40px -100px;
+    padding: 40px 50px 40px 100px;
+    min-height: 168px;
+    background: #fdf5e0 url(../img/system-notification-bg.png) 0 0 no-repeat;
+}
+/* system notification (inside main content article */
