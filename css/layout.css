@@ -399,9 +399,9 @@ section > article {
     padding: 25px 0;
 }
 .aside-events__splash {
-    margin: -25px -1000px 25px -20px;
+    margin: -25px -20px 25px;
     height: 130px;
-    background: #fdf5e0 url(../img/events-splash.jpg) 0 0 no-repeat;
+    background: url(../img/events-splash.jpg) 0 0 no-repeat;
 }
 .aside-events__header {
     text-transform: uppercase;
