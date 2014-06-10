@@ -92,7 +92,7 @@ html {
     background: #fff;
 }
 body {
-    height: 100%%;
+    height: 100%;
 }
 
 
@@ -185,7 +185,7 @@ header {
 .user-navi__item:first-child + .user-navi__item:after {
     position: absolute;
     content: " → ";
-    font-family: Arial, Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* header elements */
 
@@ -292,7 +292,7 @@ menu {
 .menu-item--active:hover {
     color: #fcae20;
     background: #5b5655;
-    cursor: normal;
+    cursor: default;
 }
 .menu-item--active:before,
 .menu-item--active:after {
@@ -337,7 +337,8 @@ section > article {
 
 .main {
     position: relative;
-    width: 100%; /* todo: what should i do? design is not flexible at all */
+    width: 100%;
+    max-width: 1400px;
 }
 .main aside,
 .main article:last-child {
@@ -368,10 +369,9 @@ section > article {
 
 /* system notification (inside main content article */
 .system-notification {
-    position: relative;
-    margin: -40px -50px 40px -100px;
-    padding: 40px 50px 40px 100px;
+    margin: -40px -50px 40px -1000px;
+    padding: 40px 50px 40px 1000px;
     min-height: 168px;
-    background: #fdf5e0 url(../img/system-notification-bg.png) 0 0 no-repeat;
+    background: #fdf5e0;
 }
 /* system notification (inside main content article */
