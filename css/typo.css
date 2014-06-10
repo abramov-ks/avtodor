@@ -74,3 +74,21 @@ aside p {
 .aside-events__link {
     font-style: italic;
 }
+
+
+article ul {
+    margin: 1em 0;
+    padding: 1em 0;
+    list-style: none;
+}
+article ul li {
+    position: relative;
+    padding: 0 0 .5em 30px;
+}
+article ul li:before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #f68621;
+    font-weight: 700;
+}
