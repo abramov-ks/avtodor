@@ -482,3 +482,54 @@ section > article {
     border-bottom: 1px solid #eaeaea;
 }
 /* total summary block */
+
+
+/* trades table */
+.trades {
+    width: 100%;
+    padding: 0;
+    margin: 30px 0;
+    border-collapse: collapse;
+}
+.trades tr {
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.trades tr td,
+.trades tr th {
+    padding: 25px 0 10px;
+    vertical-align: top;
+}
+.trades__item-wrap {
+    position: relative;
+}
+.trades__date {
+    margin: 0 0 20px;
+}
+.trades__amount {
+    margin: 20px 0 0;
+}
+.trades__name {
+    margin: 0 0 10px;
+}
+.trades__id {
+    margin: 10px 0 0;
+}
+.trades__item:hover .trades__name {
+    text-decoration: underline;
+}
+.trades-link {
+    text-align: right;
+}
+.trades-link__link {
+    display: inline-block;
+    margin: 0 0 30px;
+}
+.trades-link__link:after {
+    display: inline-block;
+    margin-left: 15px;
+    content: " → ";
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+/* trades table */
