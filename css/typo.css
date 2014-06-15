@@ -101,3 +101,18 @@ article ul li:before {
 .aside-inner-menu__item.active .aside-inner-menu__link {
     color: #b0b0b0;
 }
+
+
+.total-summary {
+    font-size: 1.4375em;
+    font-style: italic;
+    font-weight: 200;
+    color: #909090;
+}
+.total-summary__amount,
+.total-summary__quantity {
+    font-weight: 400;
+}
+.total-summary__amount:after {
+    content: "\20B7";
+}
